@@ -1,0 +1,48 @@
+/* Estilos generales */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    padding: 40px;
+}
+
+/* Botón abrir */
+#abrir {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
+
+#abrir:hover {
+    background-color: #357abd;
+}
+
+/* Dialog */
+dialog {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+}
+
+/* Texto */
+dialog p {
+    margin-bottom: 15px;
+}
+
+/* Botón cerrar */
+#cerrar {
+    padding: 8px 16px;
+    cursor: pointer;
+    background-color: #e94e4e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#cerrar:hover {
+    background-color: #c63c3c;
+}
